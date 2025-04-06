@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este arquivo foi gerado pela Eclipse Implementation of JAXB, v4.0.2 
+Consulte https://eclipse-ee4j.github.io/jaxb-ri 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2025.04.05 às 11:23:02 PM BRT
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.w3.org/2000/09/xmldsig#">
+    <schemaBindings map="false">
+      <package name="br.inf.portalfiscal.nfe"/>
+    </schemaBindings>
+    <bindings scd="~tns:ReferenceType">
+      <class ref="br.inf.portalfiscal.nfe.ReferenceType"/>
+    </bindings>
+    <bindings scd="~tns:SignedInfoType">
+      <class ref="br.inf.portalfiscal.nfe.SignedInfoType"/>
+    </bindings>
+    <bindings scd="~tns:SignatureType">
+      <class ref="br.inf.portalfiscal.nfe.SignatureType"/>
+    </bindings>
+    <bindings scd="~tns:SignatureValueType">
+      <class ref="br.inf.portalfiscal.nfe.SignatureValueType"/>
+    </bindings>
+    <bindings scd="~tns:TransformsType">
+      <class ref="br.inf.portalfiscal.nfe.TransformsType"/>
+    </bindings>
+    <bindings scd="~tns:TransformType">
+      <class ref="br.inf.portalfiscal.nfe.TransformType"/>
+    </bindings>
+    <bindings scd="~tns:KeyInfoType">
+      <class ref="br.inf.portalfiscal.nfe.KeyInfoType"/>
+    </bindings>
+    <bindings scd="~tns:X509DataType">
+      <class ref="br.inf.portalfiscal.nfe.X509DataType"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.portalfiscal.inf.br/nfe">
+    <schemaBindings map="false">
+      <package name="br.inf.portalfiscal.nfe"/>
+    </schemaBindings>
+    <bindings scd="~tns:TIpi">
+      <class ref="br.inf.portalfiscal.nfe.TIpi"/>
+    </bindings>
+    <bindings scd="~tns:TRetEnviNFe">
+      <class ref="br.inf.portalfiscal.nfe.TRetEnviNFe"/>
+    </bindings>
+    <bindings scd="~tns:TProtNFe">
+      <class ref="br.inf.portalfiscal.nfe.TProtNFe"/>
+    </bindings>
+    <bindings scd="~tns:TNFe">
+      <class ref="br.inf.portalfiscal.nfe.TNFe"/>
+    </bindings>
+    <bindings scd="~tns:TEnviNFe">
+      <class ref="br.inf.portalfiscal.nfe.TEnviNFe"/>
+    </bindings>
+    <bindings scd="~tns:TConsReciNFe">
+      <class ref="br.inf.portalfiscal.nfe.TConsReciNFe"/>
+    </bindings>
+    <bindings scd="~tns:TRetConsReciNFe">
+      <class ref="br.inf.portalfiscal.nfe.TRetConsReciNFe"/>
+    </bindings>
+    <bindings scd="~tns:TNfeProc">
+      <class ref="br.inf.portalfiscal.nfe.TNfeProc"/>
+    </bindings>
+    <bindings scd="~tns:TEndereco">
+      <class ref="br.inf.portalfiscal.nfe.TEndereco"/>
+    </bindings>
+    <bindings scd="~tns:TEnderEmi">
+      <class ref="br.inf.portalfiscal.nfe.TEnderEmi"/>
+    </bindings>
+    <bindings scd="~tns:TLocal">
+      <class ref="br.inf.portalfiscal.nfe.TLocal"/>
+    </bindings>
+    <bindings scd="~tns:TInfRespTec">
+      <class ref="br.inf.portalfiscal.nfe.TInfRespTec"/>
+    </bindings>
+    <bindings scd="~tns:TVeiculo">
+      <class ref="br.inf.portalfiscal.nfe.TVeiculo"/>
+    </bindings>
+    <bindings scd="~tns:TUf">
+      <typesafeEnumClass ref="br.inf.portalfiscal.nfe.TUf"/>
+    </bindings>
+    <bindings scd="~tns:TUfEmi">
+      <typesafeEnumClass ref="br.inf.portalfiscal.nfe.TUfEmi"/>
+    </bindings>
+  </bindings>
+</bindings>
+
