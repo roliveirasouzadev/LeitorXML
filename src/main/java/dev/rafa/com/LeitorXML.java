@@ -5,7 +5,6 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBElement;
-import jakarta.xml.bind.JAXBException;
 import jakarta.xml.bind.Unmarshaller;
 import javax.xml.transform.stream.StreamSource;
 import br.inf.portalfiscal.nfe.TNfeProc;
@@ -14,7 +13,7 @@ import br.inf.portalfiscal.nfe.TNfeProc;
  * Classe principal para leitura e impressão de dados de uma NF-e a partir de um arquivo XML.
  * O caminho do arquivo é passado via argumentos: -xml <arquivo> -dir <diretorio>.
  */
-public class AVTrataXML {
+public class LeitorXML {
 
 	/**
 	 * Método principal que interpreta os argumentos e chama o método para processar o XML.
